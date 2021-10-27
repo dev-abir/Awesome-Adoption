@@ -13,3 +13,7 @@ body,
   flex: 1;
   padding-top: 20px;
 }
+
+.bg-orange-gradient {
+  background: linear-gradient(145deg, #fcd98b 0%, var(--bs-primary) 82%);
+}

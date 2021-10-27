@@ -27,8 +27,9 @@ export default function NavigationBar() {
     await signOut();
   };
   const { session, username } = useAuth();
+  // bg="orange-gradient"
   return (
-    <Navbar bg="primary" expand="lg">
+    <Navbar bg="orange-gradient" expand="lg">
       <Container>
         <Navbar.Brand href="/">
           <Image src={Logo} height={40} width={40} />
